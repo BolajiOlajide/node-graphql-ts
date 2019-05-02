@@ -1,8 +1,9 @@
+const userSample = require('../sample/user.sample').usersSample;
 const crypto = require('crypto');
 
 export class UsersService {
 
-  public users: any = [];
+  public users: any = userSample;
 
   configTypeDefs() {
     let typeDefs = `

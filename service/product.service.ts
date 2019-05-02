@@ -1,6 +1,8 @@
+const productSample = require('../sample/product.sample').productsSample;
+
 export class ProductsService {
 
-  public products: any = [];
+  public products: any = productSample;
 
   configTypeDefs() {
     let typeDefs = `
