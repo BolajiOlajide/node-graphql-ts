@@ -44,7 +44,5 @@ export class UsersService {
       this.users.push(user);
       return user;
     };
-
   }
-
 }
